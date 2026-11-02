@@ -4,6 +4,8 @@
 
 [下载最新版](https://github.com/bailuochen/wechat-dual-mac/releases/latest) · [反馈问题](https://github.com/bailuochen/wechat-dual-mac/issues)
 
+![微信分身助手](docs/screenshot.png)
+
 ## 下载和使用
 
 1. 在 [Releases](https://github.com/bailuochen/wechat-dual-mac/releases/latest) 下载 `WeChatDual-版本号-macOS.zip` 并解压。
@@ -18,6 +20,7 @@
 
 - 助手支持 macOS 13 及以上；发布包为 Universal，包含 Apple Silicon 和 Intel 两种架构。
 - 实际双开验证环境：**macOS 15.0 + 官方微信 4.1.11**。支持两种 CPU 架构构建，不代表已在两种实体设备上验证。
+- 已通过图形界面实测「创建分身 → 打开分身 → 显示扫码登录」，同时保留原有微信进程。[创建成功截图](docs/success.png)
 - 微信的不同版本、发行渠道和后续更新，可能使这种方法失效。项目不承诺所有版本都能多开。
 - 请从微信官方网站或 Mac App Store 安装原版微信。本仓库不分发微信安装包。
 
